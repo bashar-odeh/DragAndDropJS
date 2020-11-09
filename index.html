@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- css fonts etc .. -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!--end of css .. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and drop</title>
+</head>
+
+<body>
+
+    <div class="container ">
+
+        <nav>
+            <div class="titleLogo">
+                <span>E <i class="fas fa-shopping-cart"></i>commerce</span>
+            </div>
+            <div class="menu ">
+                <ul>
+                    <li category="random">Random</li>
+                    <li category="men">Men</li>
+                    <li category="women">Women</li>
+                    <li category="Accessories"> Accessories</li>
+                    <li category="Electronics">Electronics</li>
+
+                </ul>
+
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-comment"></i>
+                <i class="fas fa-user"></i>BasharOdeh
+                <i class="fas fa-sign-out-alt"></i>
+                <i class="fas fa-moon theme">Night</i>
+            </div>
+
+        </nav>
+        <h3>Products</h3>
+        <main class="Products">
+            <div class="items ">
+                <!-- <div class="item">
+
+                    <img src="s-l500.jpg" alt="item`">
+                    <span class="item-name">
+                        Xbox One S 
+                    </span>
+                    <p class="item-description">
+                        1TB + Extra Xbox Controller + 3 Month Game Pass Ulti (Email Delivery) 1TB + saasasdasd 1TB + Extra Xbox Controller + 3 Month Game Pass Ulti (Email
+                    </p>
+                </div> -->
+
+
+
+
+
+            </div>
+            <div class="cart">
+                <div class="cart-header">
+                    <h2>Cart</h2>
+
+                </div>
+                <div class="cart-products" draggable="true">
+
+
+                    <!-- <div class="cart-item">
+                        <button>X</button>
+                        <img src="s-l500.jpg" alt="">
+
+                        <span class="cart-item-name">Xbox 1 </span>
+                        <span class="cart-item-price">10$</span>
+                        <var class="repeted">1</var>
+                    </div> -->
+
+
+
+                </div>
+
+                <div class="math">
+
+                    <div class="cart-total"><span>Total : </span> <span class="cart-price"></span></div>
+                    <div class="cart-taxes"><span>Taxes(2%) :</span> <span class="cart-taxes-in"></span></div>
+                    <div class="cart-total-sum"><span>Total sum:</span> <span class="cart-sum"></span></div>
+                </div>
+
+
+                <div class="buy">
+                    <button>Buy</button>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
